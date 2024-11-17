@@ -8,6 +8,7 @@ const App = () => {
 
   return (
     <div className="parent">
+      <h1>Parent Component</h1>
       <ChildComponent1  setSelectedOption={setSelectedOption}/>
       <ChildComponent2 setSelectedOption={setSelectedOption}/>
       <p>Selected Option: {selectedOption}</p>
